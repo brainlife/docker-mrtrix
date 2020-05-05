@@ -15,7 +15,6 @@ ENV PATH=$PATH:/usr/lib/mrtrix/bin
 #make it work under singularity
 RUN ldconfig && mkdir -p /N/u /N/home /N/dc2 /N/soft
 
-#ENTRYPOINT ["/app/ensembletracking.sh"]
  
 
 
